@@ -1,0 +1,9 @@
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.Properties.Resources.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\Sockets.frmMain.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.csproj.GenerateResource.Cache
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\bin\Debug\SocketsServer.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\bin\Debug\SocketsServer.pdb
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.pdb
+C:\Users\Alexander\Desktop\12345\New\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.exe
+C:\Users\Alexander\Desktop\12345\New\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.pdb
