@@ -1,15 +1,18 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
+using System.Runtime.Remoting.Messaging;
+using System.Security.Cryptography;
+using System.Text;
 using System.Threading;
-using System.Collections;
+using System.Windows.Forms;
 
 namespace Sockets
 {
@@ -19,6 +22,41 @@ namespace Sockets
         private TcpListener Listener;                   // сокет сервера
         private List<Thread> Threads = new List<Thread>();      // список потоков приложения (кроме родительского)
         private bool _continue = true;                          // флаг, указывающий продолжается ли работа с сокетами
+        private List<string> clients = new List<string>();
+
+        public uint SendToPipe(string message, string pipe)
+        {
+            pipe = pipe.Split(':')[0];
+            TcpClient Client = new TcpClient();     // клиентский сокет
+            try
+            {
+                int Port = 1011;                                // номер порта, через который выполняется обмен сообщениями
+                IPAddress IP = IPAddress.Parse(pipe);      // разбор IP-адреса сервера, указанного в поле tbIP
+                Client.Connect(IP, Port);                       // подключение к серверному сокету
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
+            byte[] buff = Encoding.Unicode.GetBytes(message);   // выполняем преобразование сообщения (вместе с идентификатором машины) в последовательность байт
+            Stream stm = Client.GetStream();                                                    // получаем файловый поток клиентского сокета
+            stm.Write(buff, 0, buff.Length);
+            stm.Flush();
+            Client.Close();
+            return 1;
+        }
+        private string pipesToText(List<string> clients)
+        {
+            return String.Join("\n",
+                                    (new List<string> { "participants" }).Concat(
+                                        clients.Select(
+                                            x => {
+                                                string[] splitted = x.Split(new string[] { ":" }, StringSplitOptions.None);
+                                                return splitted[1];
+                                            }
+                                            ).ToArray()
+                                        ).ToArray());
+        }
 
         // конструктор формы
         public frmMain()
@@ -70,14 +108,48 @@ namespace Sockets
             // входим в бесконечный цикл для работы с клиентским сокетом
             while (_continue)
             {
-                byte[] buff = new byte[1024];                           // буфер прочитанных из сокета байтов
+                byte[] buffAmount = new byte[4];
+                ((Socket)ClientSock).Receive(buffAmount);                     // получаем последовательность байтов из сокета в буфер buff
+                Int32 msgLen = System.BitConverter.ToInt32(buffAmount, 0);
+                byte[] buff = new byte[msgLen];                           // буфер прочитанных из сокета байтов
                 ((Socket)ClientSock).Receive(buff);                     // получаем последовательность байтов из сокета в буфер buff
                 msg = System.Text.Encoding.Unicode.GetString(buff);     // выполняем преобразование байтов в последовательность символов
                 
                 rtbMessages.Invoke((MethodInvoker)delegate
                 {
                     if (msg.Replace("\0","") != "")
-                        rtbMessages.Text += "\n >> " + msg;             // выводим полученное сообщение на форму
+                    {
+                        Console.WriteLine(msg);
+                        string[] data = msg.Split(new string[] { " <:> " }, StringSplitOptions.None);
+                        string clientpipename = data[0]+":"+data[1];
+                        if (!clients.Contains(clientpipename))
+                        {
+                            clients.Add(clientpipename);
+                            rtbParticipants.Text = pipesToText(clients);
+                        }
+                        DateTime dt = DateTime.Now;
+                        string time = dt.Hour + ":" + dt.Minute+":"+dt.Second;
+
+                        string message = "\n >> "  + data[0] + "|" + data[1] + "|" + time  + ":  " + data[2];                             // выводим полученное сообщение на форму
+                        rtbMessages.Text += message;
+                        List<string> delete = new List<string>();
+                        foreach (string pipe in clients)
+                        {
+                            Console.WriteLine("?:>"+message+"<?:"+pipe);
+                            
+                            if (SendToPipe(message, pipe) == 0)
+                            {
+                                delete.Add(pipe);
+                            }
+                        }
+                        foreach (var pipe in delete)
+                        {
+                            clients.Remove(pipe);
+                            rtbParticipants.Text = pipesToText(clients);
+                        }
+                    }
+
+                        //rtbMessages.Text += "\n >> " + msg;             // выводим полученное сообщение на форму
                 });
                 Thread.Sleep(500);
             }
