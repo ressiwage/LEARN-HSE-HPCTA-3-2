@@ -1,0 +1,9 @@
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\Sockets.frmMain.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.Properties.Resources.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.csproj.GenerateResource.Cache
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\bin\Debug\SocketsClient.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\bin\Debug\SocketsClient.pdb
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.pdb
+C:\Users\Alexander\Desktop\12345\New\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.exe
+C:\Users\Alexander\Desktop\12345\New\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.pdb
