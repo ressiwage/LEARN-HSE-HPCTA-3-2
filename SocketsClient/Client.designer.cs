@@ -34,6 +34,9 @@
             this.btnConnect = new System.Windows.Forms.Button();
             this.lblMessage = new System.Windows.Forms.Label();
             this.tbIP = new System.Windows.Forms.TextBox();
+            this.nickBox = new System.Windows.Forms.Label();
+            this.messagesTB = new System.Windows.Forms.RichTextBox();
+
             this.SuspendLayout();
             // 
             // btnSend
@@ -62,6 +65,21 @@
             this.lblIP.Size = new System.Drawing.Size(62, 26);
             this.lblIP.TabIndex = 2;
             this.lblIP.Text = "Введите IP\r\nсервера";
+
+
+            this.nickBox.AutoSize = true;
+            this.nickBox.Location = new System.Drawing.Point(12, 103);
+            this.nickBox.Name = "nickBox";
+            this.nickBox.Size = new System.Drawing.Size(77, 13);
+            this.nickBox.TabIndex = 3;
+            this.nickBox.Text = "ваш никнейм ";
+
+
+            this.messagesTB.Location = new System.Drawing.Point(2, 148);
+            this.messagesTB.Name = "messagesTB";
+            this.messagesTB.Size = new System.Drawing.Size(367, 248);
+            this.messagesTB.TabIndex = 5;
+            this.messagesTB.Text = "";
             // 
             // btnConnect
             // 
@@ -94,13 +112,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 85);
+            this.ClientSize = new System.Drawing.Size(363, 400);
             this.Controls.Add(this.tbIP);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.lblIP);
             this.Controls.Add(this.tbMessage);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.btnSend);
+            this.Controls.Add(this.messagesTB);
+            this.Controls.Add(this.nickBox);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Клиент";
@@ -118,6 +138,9 @@
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.TextBox tbIP;
+
+        public System.Windows.Forms.Label nickBox;
+        private System.Windows.Forms.RichTextBox messagesTB;
     }
 }
 
