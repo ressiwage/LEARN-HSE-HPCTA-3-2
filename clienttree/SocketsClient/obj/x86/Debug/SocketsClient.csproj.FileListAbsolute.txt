@@ -1,0 +1,34 @@
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\Sockets.frmMain.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.Properties.Resources.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.csproj.GenerateResource.Cache
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\bin\Debug\SocketsClient.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\bin\Debug\SocketsClient.pdb
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.pdb
+C:\Users\Alexander\Desktop\12345\New\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.exe
+C:\Users\Alexander\Desktop\12345\New\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.pdb
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\SocketsClient.exe
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\SocketsClient.pdb
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\mscorlib.dll
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\ru\mscorlib.resources.dll
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\sortkey.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\sorttbls.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\big5.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\bopomofo.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\ksc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\prc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\prcp.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\xjis.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\normidna.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\normnfc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\normnfd.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\normnfkc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\bin\Debug\normnfkd.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.csproj.AssemblyReference.cache
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\Sockets.frmMain.resources
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.Properties.Resources.resources
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.csproj.GenerateResource.cache
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.csproj.CoreCompileInputs.cache
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\SocketsC.14D69878.Up2Date
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.exe
+W:\desktop\учеба\тиавв\3_Sockets\SocketsClient\SocketsClient\obj\x86\Debug\SocketsClient.pdb
