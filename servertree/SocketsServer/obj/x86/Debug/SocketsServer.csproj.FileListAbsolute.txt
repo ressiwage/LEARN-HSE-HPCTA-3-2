@@ -1,0 +1,34 @@
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.Properties.Resources.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\Sockets.frmMain.resources
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.csproj.GenerateResource.Cache
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\bin\Debug\SocketsServer.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\bin\Debug\SocketsServer.pdb
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.exe
+c:\users\alexander\documents\visual studio 2010\Projects\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.pdb
+C:\Users\Alexander\Desktop\12345\New\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.exe
+C:\Users\Alexander\Desktop\12345\New\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.pdb
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.csproj.AssemblyReference.cache
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.Properties.Resources.resources
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\Sockets.frmMain.resources
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.csproj.GenerateResource.cache
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.csproj.CoreCompileInputs.cache
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.exe
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\SocketsServer.pdb
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\SocketsServer.exe
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\SocketsServer.pdb
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\mscorlib.dll
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\ru\mscorlib.resources.dll
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\sortkey.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\sorttbls.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\big5.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\bopomofo.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\ksc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\prc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\prcp.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\xjis.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\normidna.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\normnfc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\normnfd.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\normnfkc.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\bin\Debug\normnfkd.nlp
+W:\desktop\учеба\тиавв\3_Sockets\SocketsServer\SocketsServer\obj\x86\Debug\SocketsS.6CDC903B.Up2Date
